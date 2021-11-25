@@ -1,0 +1,27 @@
+/*********** HEADER ***********/
+
+.container header div
+{
+    display: flex;
+    display: inline-flex;
+}
+header
+{
+    display: flex;
+    background-color: #284b63;
+    justify-content: space-between;
+}
+.logoheader
+{
+    padding-left: 80px;
+}
+.navheader a
+{
+    color: white;
+    text-decoration: none;
+    padding-right: 20px;
+}
+.navheader
+{
+    padding: 20px 100px 10px 5px ;
+}

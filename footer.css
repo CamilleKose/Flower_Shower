@@ -1,0 +1,134 @@
+/******************** FOOTER-UP ********************/
+
+.footer-up
+{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.logofooter
+{
+    height: 50px;
+    width: 130px;
+    margin-left: 5px;
+    padding-top: 15px;
+}
+
+.menu-nav
+{
+    display: flex;
+    margin-left: 730px;
+}
+
+.navfooter1 ul, .navfooter2 ul
+{
+    list-style-type: none; 
+}
+
+li
+{
+    padding-bottom: 5px;
+}
+
+a
+{
+    text-decoration: none;
+}
+.black
+{
+    font-size: 13px;
+    font-weight: bolder;
+}
+.blue
+{
+    color: blue;
+    font-size: 12px;
+    padding-top: 15px;
+}
+
+.footbutton .joinbutton
+{
+    background-color: #f6ecd4;
+    border: 1px solid #f2cb6c;
+    border-radius: 6px;
+    height: 35px;
+    width: 130px;
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-right: 40px;
+}
+.footbutton .jointext
+{
+    font-size: 16px;
+    margin: 7px 1px 15px 1px;
+}
+
+/**************** FOOTER DOWN ***************/
+
+.footer-down
+{
+    display: flex;
+}
+
+.flour
+{
+    margin-left: 10px;
+    margin-right: 850px;
+}
+.footer-down p
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo-linkedin
+{
+    height: 40px;
+    width: 40px;
+}
+
+.logo-twitter
+{
+    height: 40px;
+    width: 40px;
+}
+
+
+/**************************** Media Queries pour écran moyen : ******************************/
+
+@media screen and (max-width: 750px)
+{
+    .menu-nav
+{
+    margin-left: 150px;
+}
+
+.flour
+{
+    margin-right: 280px;
+}
+
+/**************************** Media Queries pour petit écran : ******************************/
+
+@media screen and (max-width: 500px)
+{
+    .menu-nav
+{
+    margin-left: 0px;
+}
+
+.navfooter1 ul, .navfooter2 ul
+{
+    padding-left: 15px;
+    width: 60px;
+}
+
+.navfooter2 ul li a
+{
+    width: 60px;
+}
+
+.flour
+{
+    margin-right: 80px;
+}

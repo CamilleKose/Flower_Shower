@@ -1,0 +1,390 @@
+/****** BODY *******/
+*
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/******** Partie titre boite 1 : ******/
+h1
+{
+    text-align: center;
+    padding-top: 40px;
+}
+.flour
+{
+    font-size: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+/**************** Deuxième boîte : *********/
+.boite2
+{
+    display: inline-flex;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+
+/****** sous-boîte de gauche : *****/
+.article
+{
+    width: 530px;
+    height: 380px;
+    padding-left: 40px;
+}
+.blackbold
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+.grey, .grey1
+{
+    color: #6e757c;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/******* sous-boîte de droite : *****/
+.crème
+{
+    width: 554px;
+    height: 310px;
+    margin-top: 10px;
+}
+
+/******* Troisième boîte centrale horizontale : *******/
+.boitecentrale3
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    height: 180px;
+    margin-top: 100px;
+    margin-bottom: 90px;
+}
+.joinbutton
+{
+    background-color: #f6ecd4;
+    border: 1px solid #f2cb6c;
+    border-radius: 6px;
+    height: 35px;
+    width: 130px;
+    margin-left: 30px;
+}
+.jointext
+{
+    font-size: 16px;
+    margin: 7px 1px 15px 1px;
+}
+
+/*************** Quatrième boîte : *************/
+.boite4
+{
+    display: inline-flex;
+    display: flex;
+    justify-content: space-between;
+}
+
+/******** sous-boîte de gauche : ******/
+.leftbox
+{
+    height: 550px;
+    width: 500px;
+    padding-left: 40px;
+}
+.macaron
+{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin-top: 25px;
+}
+
+/******** sous-boite de droite : *******/
+.rightbox
+{
+    height: 500px;
+    width: 500px;
+    margin-top: 50px;
+    margin-right: 160px;
+}
+.roundpastries
+{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.learnbutton
+{
+    background-color: #f6ecd4;
+    border: 1px solid #f2cb6c;
+    border-radius: 6px;
+    height: 35px;
+    width: 130px;
+    margin-left: 0px;
+}
+.learnmore
+{
+    font-size: 16px;
+    margin: 7px 1px 15px 1px;
+}
+
+/************ Cinquième boîte : ***********/
+.boite5
+{
+    display: inline-flex;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    height: 460px;
+    background-color: #f5f5f5;
+}
+
+/******** sous-boîte de gauche : ******/
+.leftbox1
+{
+    height: 380px;
+    width: 485px;
+    padding-left: 70px;
+    padding-top: 75px;
+}
+
+/******* sous-boite de droite : *******/
+.rightbox1
+{
+    height: 350px;
+    width: 540px;
+    margin-left: 30px;
+    margin-top: 70px;
+    margin-right: 110px;
+}
+.gateauroulé
+{
+    height: 320px;
+    width: 510px;
+}
+
+/**************************** Media Queries pour écran moyen : ******************************/
+
+@media screen and (max-width: 750px)
+{
+    .container
+{  
+    width: 100%;
+}
+
+    .boite2, .boite4, .boite5
+{  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/***************** Titre de la page *******************/
+
+.titre h1
+{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.flour
+{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/******* Seconde boite avec l'article et la photo crème : ********/
+
+.boite2
+{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.divcrème
+{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+/********* boite centrale 3 : ******/
+
+    .boitecentrale3
+{
+    width: 100%;
+    width: 750px;
+}
+    .boitecentrale3 .chocolate
+{
+    width: 12%;
+    margin-left: 70px;
+    margin-right: 40px;
+}
+
+/******* Quatrième boîte avec la photo des macarons : *******/
+
+    .boite4
+{
+    width: 100%;
+}
+
+    .boite4 .rightbox
+{
+    margin-right: 70px;
+}
+
+/******** Cinquième boîte avec le gâteau roulé : *******/
+
+    .boite5
+{
+    width: 100%;
+}
+    .boite5 .leftbox1 
+{
+   width: 47%;
+   padding-left: 0px;
+   padding-top: 20px;
+}
+
+   .boite5 .rightbox1 /***sous-div contenant le gâteau roulé***/
+{
+    width: 60%;
+}
+.gateauroulé
+{
+    width: 100%;
+    margin-left: 70px;
+}
+
+/************************** Media Queries pour petit écran : **************************/
+
+    .container
+{
+    width: 100%;
+}
+
+/************Header*************/
+
+    .logoheader
+{
+    height: 35px;
+    width: 55px;
+    margin-top: 10px;
+}
+
+    .navheader
+{
+    display: inline-flex;
+    margin-bottom: 8px;
+}
+
+/************* Titre : **************/
+
+    .titre h1
+{
+   width: 80%;
+  
+}
+
+/*******Seconde boite avec l'article et photo crème (pochoir) ********/
+
+    .boite2 
+{
+    width: 100%;
+    padding-left: 1px;
+}
+
+    .boite2 .article 
+{
+    width: 420px;
+    height: 370px;
+    margin-right: 5px;
+    margin-bottom: 0px;
+}
+
+    .divcrème
+{
+    height: 330px;
+    width: 430px;
+}
+
+    .crème
+{
+    margin-left: 7px;
+    margin-top: 0px;
+    height: 270px;
+    width: 420px;
+}
+
+/********* boite centrale 3 : ********/
+
+    .boitecentrale3
+{
+    height: 355px;
+    width: 100%;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/******** Quatrième boîte avec photo des macarons : *******/
+
+    .boite4
+{
+   width: 95%;
+   width: 500px;
+   padding-left: 20px;
+}
+
+    .boite4 .leftbox
+{
+   width: 95%;
+   width: 450px;
+   margin-left: 0px;
+}
+
+    .boite4 .rightbox
+{
+   margin-left: 115px;
+   width: 450px;
+}
+
+    .grey, .grey1
+{
+   margin-left: 1px;
+   width: 90%;
+}
+
+/******** Cinquième boîte avec le gâteau roulé : *******/
+
+    .boite5
+{
+    height: 690px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+   .boite5 .leftbox1
+{
+   width: 270px;
+   height: 350px;
+   margin-left: 0px;
+}
+
+     .thomas
+{
+  margin-left: 110px;
+}
+
+  .rightbox1 .gateauroulé /***** sous-div contenant le gâteau roulé*******/
+{
+    padding-left: 40px;
+    margin-bottom: 50px;
+    width: 270px;
+    height: 210px;
+}

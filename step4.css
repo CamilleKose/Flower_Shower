@@ -1,0 +1,230 @@
+/******* BODY *******/
+
+/******* Typos de la page *******/
+
+.navheader a, .titre .undertitle, .input-title, .jointext, .visit-us, .chocolate, .adresse,
+.p-noir, .title-last-box, .navfooter1, .navfooter2, .footbutton .jointext, .basdepage1, .basdepage2
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*********** Partie titres boite 1 : ***********/
+.titre
+{
+    text-align: center;
+    padding-top: 40px;
+}
+.titre .undertitle
+{
+    font-size: 20px;
+}
+
+/************ BOX Formulaire de Contact *******/
+
+.contact
+{
+    border: 1.5px solid black;
+    width: 580px;
+    height: 305px;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.input-title
+{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+textarea
+{
+    width: 500px;
+    height: 100px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+.first-input
+{
+    width: 220px;
+    height: 18px;
+    margin-left: 40px;
+}
+.second-input
+{
+    width: 220px;
+    height: 18px;
+    margin-left: 50px;
+}
+.first-input, .second-input, textarea
+{
+    border: 1.7px solid grey;
+    border-radius: 4%;
+}
+.sendbutton
+{
+    background-color: #f6ecd4;
+    border: 1px solid #f2cb6c;
+    border-radius: 6px;
+    height: 40px;
+    width: 70px;
+    margin-left: 40px;
+}
+.jointext
+{
+    font-size: 16px;
+    margin: 7px 1px 15px 1px;
+}
+
+/******************* Partie PLANS ***************/
+
+.visit-us
+{
+    font-size: 19px;
+    font-weight: bold;
+    margin-left: 28px;
+    margin-top: 80px;
+}
+.chocolate
+{
+    color: slategray;
+    margin-left: 28px;
+}
+.plans-box
+{
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.first-map, .second-map, .third-map
+{
+    width: 335px;
+    height: 440px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border: 1px solid black;
+}
+.map1, .map2, .map3
+{
+    height: 248px;
+    width: 335px;
+}
+.adresse
+{
+    margin-left: 20px;
+    font-size: 15px;
+    color: slategrey;
+}
+.arrdt-paris
+{
+    border: 1px solid black;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.p-noir, .title-last-box
+{
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+/***************** BOX du bas ********************/
+
+.last-box
+{
+    background-color: #f5f5f5;
+    height: 325px;
+    padding-top: 40px;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.coffee-cup
+{
+    height: 150px;
+    width: 210px;
+}
+
+/**************************** Media Queries pour écran moyen : ******************************/
+
+@media screen and (max-width: 750px)
+{
+    .container
+{  
+    width: 100%;
+}
+.titre
+{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.plans-box
+{
+    flex-wrap: wrap;
+}
+
+.first-map, .second-map, .third-map
+{
+    height: 680px;
+    width: 655px;
+    margin-bottom: 40px;
+}
+.map1, .map2, .map3
+{
+    height: 490px;
+    width: 655px;
+    margin-bottom: 20px;
+}
+.title-last-box
+{
+    width: 90%;
+    text-align: center;
+}
+.last-box
+{
+    margin-bottom: 80px;
+}
+/*********************** Media Queries pour petit écran : ***************************/
+
+.container, .first-map, .second-map, .third-map, .map1, .map2, .map3
+{
+    width: 100%;
+}
+.logoheader
+{
+    height: 50px;
+    padding: 10px;
+    margin-left: 40px;
+}
+.titre 
+{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.second-input
+{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.contact
+{
+    width: 90%;
+    height: 355px;
+}
+textarea
+{
+    width: 80%;
+}
+.map1, .map2, .map3
+{
+    height: 410px;
+}
+.first-map, .second-map, .third-map
+{
+    height: 600px;
+}
